@@ -4,20 +4,22 @@ There are 2 versions of the application:
 
 - Graphical User Interface (GUI)
 
-<div style="text-align: center">
+<p align="center">
     <img src="./img/gui.png" width=500 alt="GUI example" />
-</div>
+</p>
 
 - Command-line Interface (CLI)
 
-<div style="text-align: center">
+<p align="center">
     <img src="./img/cli.png" width=300 alt="CLI example" />
-</div>
+</p>
 
 ## Install
 
 > **Note**:
-> With GUI, you can directly run the `key_remap.exe` file without doing anything further
+>
+> With GUI, you can directly run the `key_remap.exe` file without doing anything further.
+> (Downloadable at [GitHub Releases](https://github.com/lpun-majessica/key_remap/releases) by clicking on the file)
 
 Firstly, clone this repo. Then, choose the version that you prefer and run the command below
 
