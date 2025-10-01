@@ -1,0 +1,30 @@
+[project]
+name = "key-remap"
+version = "0.0.1"
+dependencies = ["keyboard", "pyyaml"]
+requires-python = ">=3.8"
+authors = [
+    { name = "Majestique", email = "nhi.lpu1205@gmail.com" }
+]
+maintainers = [
+    { name = "Majestique", email = "nhi.lpu1205@gmail.com" }
+]
+description = "Create a key mapping that you are comfortable with"
+classifiers = [
+    "Development Status :: 4 - Beta",
+    "Programming Language :: Python"
+]
+
+[project.optional-dependencies]
+gui = ["ttkbootstrap", "pystray"]
+cli = [
+    "rich>=13.9",
+    "beaupy",
+]
+exe = ["pyinstaller", "pystray", "ttkbootstrap"]
+
+[project.scripts]
+key-remap = "key_remap.cli:run"
+
+[project.gui-scripts]
+key-remap-gui = "key_remap.gui:run"
